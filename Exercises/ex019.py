@@ -1,0 +1,6 @@
+nome = input('Digite seu nome completo: ')
+print('O nome digitado foi: {}'.format(nome))
+nome1 = nome.split()
+print('Seu primeiro nome é: {}'.format(nome1[0]))
+nome1.reverse()
+print('Seu último nome é: {}'.format(nome1[0]))
